@@ -2,14 +2,14 @@ body {
     background-color: tan;
     margin: 0px;
 }
-header{
+header {
     border: 10px;
 }
 
-h1{
+h1 {
     text-align: center;
 }
-nav ul{
+nav ul {
     list-style: none;
     display: flex;
 }
