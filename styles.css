@@ -17,6 +17,7 @@ h1 {
 nav ul {
     list-style-type: none;
     display: flex;
+    text-align: center;
 }
 
 main {
@@ -24,7 +25,6 @@ main {
 }
 
 img {
-    border: 1px ridge tan;
     height: 600px;
     width: 1300px;
 }
@@ -35,8 +35,9 @@ img {
     margin-right: auto;
 }
 
-#intro{
-    background-color: rgba(94, 14, 31, 0.514);
+#intro {
+    background-color: tan;
+    border: 2px ridge rgb(58, 31, 31);
 }
 
 .section-header {
