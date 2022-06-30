@@ -1,15 +1,45 @@
 body {
-    background-color: tan;
+    background-color: rgb(129, 26, 26);
+}
+
+body {
     margin: 0px;
 }
+
 header {
-    border: 10px;
+    border: 10px ridge tan;
 }
 
 h1 {
     text-align: center;
 }
+
 nav ul {
-    list-style: none;
+    list-style-type: none;
     display: flex;
+}
+
+main {
+    margin: 0px;
+}
+
+img {
+    border: 1px ridge tan;
+    height: 600px;
+    width: 1300px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#intro{
+    background-color: rgba(94, 14, 31, 0.514);
+}
+
+.section-header {
+    color: blanchedalmond;
+    text-align: center;
 }
