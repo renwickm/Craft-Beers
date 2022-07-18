@@ -29,36 +29,60 @@
  //   document.write("That's still a nice color.")
 //}
 
-let yes = "y";
-let no = "n";
 
-let favAnswer = "y";
+function askDrink(){
+    let yes = "y";
+    let no = "n";
 
-console.log(yes);
-console.log(no);
+    let favAnswer = "y";
 
-let userAnswer = prompt ("Do you like beer (y/n)")
-console.log(userAnswer);
+    console.log(yes);
+    console.log(no);
 
-if (userAnswer == "y"){
-    document.write("Good Answer!")
-} else if (userAnswer == "n"){
-    document.write("What ARE YOU..., a WINE DRINKER!")
+    let userAnswer = prompt ("Do you like beer (y/n)")
+    console.log(userAnswer);
+
+    if (userAnswer == "y"){
+        document.write("Good Answer!")
+    } else if (userAnswer == "n"){
+        document.write("What ARE YOU..., a WINE DRINKER!")
+    }
 }
 
-let Beer = "IPA";
-let otherBeer = "Lager";
+let message = askDrink
+console.log("LINE 52", message)
 
-let favBeer = "IPA";
+function askBeertype(){
+    let Beer = "IPA";
+    let otherBeer = "Lager";
 
-console.log(Beer);
-console.log(otherBeer);
+    let favBeer = "IPA";
 
-let userBeer = prompt ("What style of beer is better...IPA, or Lager")
-console.log(userBeer);
+    console.log(Beer);
+    console.log(otherBeer);
 
-if (userBeer == "IPA"){
-    document.write("Stay thirsty my friend!")
-} else if (userBeer == "Lager"){
-    document.write("How about NOOO SHCOTTY!")
+    let userBeer = prompt ("What style of beer is better...IPA, or Lager")
+    console.log(userBeer);
+
+    if (userBeer == "IPA"){
+        document.write("Stay thirsty my friend!")
+    } else if (userBeer == "Lager"){
+        document.write("How about NOOO SHCOTTY!")
+    }
 }
+let choice = askBeertype
+console.log("LINE 73", choice)
+
+
+//              (parameters)
+function addNumbers(x, y){
+    return x + y;
+}
+
+//             (arguments)
+addNumbers(5, 3);
+
+let classGreeting = addNumbers("Hello", "Class");
+console.log("LINE 86", classGreeting);
+
+document.write(addNumbers("Hello", "Class"));
